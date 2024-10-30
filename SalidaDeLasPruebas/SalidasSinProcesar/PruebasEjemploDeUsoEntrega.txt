@@ -1,0 +1,507 @@
+-!-Ini::PRUEBAS Enlistar
+Llamada: Enlistar({2,1,5})
+1 2 5
+
+-!-0::0-?-?-Prueba de pasar ABB a ListaOrd 1
+Llamada: Enlistar({1,#,2,#,5})
+1 2 5
+
+-!-1::0-?-?-Prueba de pasar ABB a ListaOrd 2
+Llamada: Enlistar({1,#,2,#,15,10,20,8,#,16,30,7,9,#,18})
+1 2 7 8 9 10 15 16 18 20 30
+
+-!-2::0-?-?-Prueba de pasar ABB a ListaOrd 3
+-!-Fin::PRUEBAS Enlistar
+-!-Ini::PRUEBAS UnionListaOrd
+Llamada: UnionListaOrd((1,3,5,7,9), (2,4,6,8))
+1 2 3 4 5 6 7 8 9
+
+-!-3::0-?-?-Prueba union de dos listas ordenadas 1
+Llamada: UnionListaOrd((100,200,300,400), (100,200,300,400))
+100 100 200 200 300 300 400 400
+
+-!-4::0-?-?-Prueba union de dos listas ordenadas 2
+Llamada: UnionListaOrd((), (-1,0,1,5))
+-1 0 1 5
+
+-!-5::0-?-?-Prueba union de dos listas ordenadas 3
+-!-Fin::PRUEBAS UnionListaOrd
+-!-Ini::PRUEBAS EstaContenida
+Llamada: EstaContenida((1,7,4,2), (7,3,2,1))
+No esta contenida
+
+-!-6::0-?-?-Prueba de pila contenida 1
+Llamada: EstaContenida((1,7,4,2), (7,3,2,1,4,8))
+Esta contenida
+
+-!-7::0-?-?-Prueba de pila contenida 2
+Llamada: EstaContenida((1,7,4,2,7,4,4,7), (7,3,7,2,4,1,4,8))
+No esta contenida
+
+-!-8::0-?-?-Prueba de pila contenida 3
+Llamada: EstaContenida((1,7,4,2,7,4,4,7), (7,3,7,2,4,4,4,7,1,4,8))
+Esta contenida
+
+-!-9::0-?-?-Prueba de pila contenida 4
+-!-Fin::PRUEBAS EstaContenida
+-!-Ini::PRUEBAS ObtenerRepetidos
+Llamada: ObtenerRepetidos((1, 1, 2))
+1
+
+-!-10::0-?-?-Prueba ObtenerRepetidos 1
+Llamada: ObtenerRepetidos(())
+No hay elementos
+
+-!-11::0-?-?-Prueba ObtenerRepetidos 2
+Llamada: ObtenerRepetidos((1, 2, 3, 2, 1))
+1 2
+
+-!-12::0-?-?-Prueba ObtenerRepetidos 3
+Llamada: ObtenerRepetidos((10, 4, 6, 1, 1, 10, 5, 8))
+1 10
+
+-!-13::0-?-?-Prueba ObtenerRepetidos 4
+Llamada: ObtenerRepetidos((4))
+No hay elementos
+
+-!-14::0-?-?-Prueba ObtenerRepetidos 5
+Llamada: ObtenerRepetidos((1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
+No hay elementos
+
+-!-15::0-?-?-Prueba ObtenerRepetidos 6
+Llamada: ObtenerRepetidos((1, 1, 1, 1, 1, 1))
+1
+
+-!-16::0-?-?-Prueba ObtenerRepetidos 7
+Llamada: ObtenerRepetidos((1, 10, 100, 1000))
+No hay elementos
+
+-!-17::0-?-?-Prueba ObtenerRepetidos 8
+Llamada: ObtenerRepetidos((4, 6, 4, 6, 4, 6, 4, 6))
+4 6
+
+-!-18::0-?-?-Prueba ObtenerRepetidos 9
+Llamada: ObtenerRepetidos((1, 2, 1, 4, 2, 1, 4, 2, 7))
+1 2 4
+
+-!-19::0-?-?-Prueba ObtenerRepetidos 10
+Llamada: ObtenerRepetidos((6, 6))
+6
+
+-!-20::0-?-?-Prueba ObtenerRepetidos 11
+Llamada: ObtenerRepetidos((6, 6, 6, 7, 7, 7))
+6 7
+
+-!-21::0-?-?-Prueba ObtenerRepetidos 12
+-!-Fin::PRUEBAS ObtenerRepetidos
+-!-Ini::PRUEBAS Xor
+Llamada: Xor((), ())
+No hay elementos
+
+-!-22::0-?-?-Prueba Xor de multisets 1
+Llamada: Xor((1,2,3), (3,2,1))
+No hay elementos
+
+-!-23::0-?-?-Prueba Xor de multisets 2
+Llamada: Xor((1,2,3), ())
+(1,2,3)
+
+-!-24::0-?-?-Prueba Xor de multisets 3
+Llamada: Xor((), (3,2,1))
+(1,2,3)
+
+-!-25::0-?-?-Prueba Xor de multisets 4
+Llamada: Xor((1,3,4,7), (8,1,2,3))
+(2,4,7,8)
+
+-!-26::0-?-?-Prueba Xor de multisets 5
+Llamada: Xor((1,1,2), (1,2))
+(1)
+
+-!-27::0-?-?-Prueba Xor de multisets 6
+Llamada: Xor((1,1,2,3,3,3), (1,3))
+(1,2,3,3)
+
+-!-28::0-?-?-Prueba Xor de multisets 7
+Llamada: Xor((1,1,1), ())
+(1,1,1)
+
+-!-29::0-?-?-Prueba Xor de multisets 8
+Llamada: Xor((1,1,1), (5))
+(1,1,1,5)
+
+-!-30::0-?-?-Prueba Xor de multisets 9
+Llamada: Xor((1,1,1,0), (1,1,1))
+(0)
+
+-!-31::0-?-?-Prueba Xor de multisets 10
+-!-Fin::PRUEBAS Xor
+-!-Ini::PRUEBAS MenorPrioridad
+Llamada: MenorPrioridad(())
+La cola de prioridad esta llena? SI
+No hay elementos
+
+-!-32::0-?-?-Prueba pruebaMenorPrioridad 1
+Llamada: MenorPrioridad((4:1,2:3,3:2,1:4))
+La cola de prioridad esta llena? SI
+4:1
+La cola de prioridad esta llena? NO
+
+-!-33::0-?-?-Prueba pruebaMenorPrioridad 2
+Llamada: MenorPrioridad((5:5,9:6,2:2,-3:3,5:8,7:2,9:4,-2:-4,1:2,-1:-1))
+La cola de prioridad esta llena? SI
+-2:-4
+La cola de prioridad esta llena? NO
+
+-!-34::0-?-?-Prueba pruebaMenorPrioridad 3
+Llamada: MenorPrioridad((6:-1,30:0,4:7,-10:-1,9:9))
+La cola de prioridad esta llena? SI
+6:-1 -10:-1
+La cola de prioridad esta llena? NO
+
+-!-35::0-?-?-Prueba pruebaMenorPrioridad 4
+Llamada: MenorPrioridad((15:5,-4:4,3:4,-3:3,-2:2,12:2,5:2,7:1,6:2,9:4,-3:3,-5:5,1:1))
+La cola de prioridad esta llena? SI
+7:1 1:1
+La cola de prioridad esta llena? NO
+
+-!-36::0-?-?-Prueba pruebaMenorPrioridad 5
+Llamada: MenorPrioridad((2:4,2:4,4:4,4:4))
+La cola de prioridad esta llena? SI
+2:4 2:4 4:4 4:4
+La cola de prioridad esta llena? NO
+
+-!-37::0-?-?-Prueba pruebaMenorPrioridad 6
+Llamada: MenorPrioridad((2:4,1:4,7:5,6:4,8:4))
+La cola de prioridad esta llena? SI
+2:4 1:4 6:4 8:4
+La cola de prioridad esta llena? NO
+
+-!-38::0-?-?-Prueba pruebaMenorPrioridad 7
+Llamada: MenorPrioridad((9:-1,8:-2,7:-3,5:-4,3:-5,2:-6,5:-7,4:-8,1:-9,3:-10))
+La cola de prioridad esta llena? SI
+3:-10
+La cola de prioridad esta llena? NO
+
+-!-39::0-?-?-Prueba pruebaMenorPrioridad 8
+Llamada: MenorPrioridad((1:-1))
+La cola de prioridad esta llena? SI
+1:-1
+La cola de prioridad esta llena? NO
+
+-!-40::0-?-?-Prueba pruebaMenorPrioridad 9
+Llamada: MenorPrioridad((1:1,2:-1,3:-2,4:1,5:-1,6:-2,7:-2,8:-1,9:1))
+La cola de prioridad esta llena? SI
+3:-2 6:-2 7:-2
+La cola de prioridad esta llena? NO
+
+-!-41::0-?-?-Prueba pruebaMenorPrioridad 10
+-!-Fin::PRUEBAS MenorPrioridad
+-!-Ini::PRUEBAS PilaInt
+cantidad de elementos al crear la pila: 0
+Esta vacia: 1
+
+-!-42::0-?-?-Imprimo la cantidad de elementos al crear la pila y valido que sea vacia
+tope de la pila cuando agrego el primer elemento: 4
+
+-!-43::0-?-?-Imprimo el tope de la pila con 1 elemento para validar el caso base de push
+Esta vacia: 0
+
+-!-44::0-?-?-Imprimo si esta vacia o llena antes y despues de agregar, verificando que push funcione
+Largo de pila: 5
+
+-!-45::0-?-?-Imprimo largo luego de agregar
+el primer elemento antes del pop es: -1
+el primer elemento luego del pop es: 3
+la cantidad de elementos luego del pop es: 4
+
+-!-46::0-?-?-Imprimo el primer elemento antes y despues del pop, verificando que disminuya la cantidad de elementos
+elementos de la pila: 
+3,2,5,4
+
+-!-47::0-?-?-Clono e imprimo los elementos de la pila clonando y poppeando
+Largo de clon luego de vaciarlo: 0
+Largo de la pila original luego de vaciar clon: 4
+
+-!-48::0-?-?-Verifico que se modifique el clon y no el original
+El tope de la pila clon luego de agregar 3 elementos es: -16
+El tope de la pila clon luego de poppear 2 elementos es: 38
+
+-!-49::0-?-?-Verifico que pushear y poppear elementos no altere la estructura de la pila
+vacio el clon totalmente. Cantidad de elementos: 0
+Es vacia: 1
+
+-!-50::0-?-?-Verifico que funcione el caso base de pop dejando la pila vacia
+cantidad de elementos de la pila original luego de destruir clon: 4tope de la pila original luego de destruir clon3
+-!-51::0-?-?-Verifico que destruir el clon no altere la pila original
+elementos de la pila: 
+3,2,5,4
+elementos del clon de la pila: 
+3,2,5,4
+
+-!-52::0-?-?-Verifico que el clon copie todos los elementos de la pila
+
+-!-53::0-?-?-Libero memoria
+-!-Fin::PRUEBAS PilaInt
+-!-Ini::PRUEBAS ListaPosInt
+Largo de lista Pos: 7
+
+-!-54::0-?-?-Imprimo largo luego de agregar
+5,7,-1,-2,5,4,15
+
+-!-55::0-?-?-Clono e imprimo
+Cantidad de elementos del clon luego de vaciarlo: 0
+Cantidad de elementos de la cola luego de vaciar clon: 7
+
+-!-56::0-?-?-Verifico que se modifique el clon y no el original
+Largo de lista Pos luego de borrar 4 elementos: 3
+Largo de lista Pos luego de vaciarla: 0
+
+-!-57::0-?-?-Borro algunos elementos y vacio la lista
+
+-!-58::0-?-?-Libero memoria
+-!-Fin::PRUEBAS ListaPosInt
+-!-Ini::PRUEBAS ColaInt
+cantidad de elementos al crear la cola: 0
+Esta vacia: 1
+
+-!-59::0-?-?-Imprimo la cantidad de elementos al crear la cola y valido que sea vacia
+Principio de la cola cuando agrego el primer elemento: 4
+
+-!-60::0-?-?-Imprimo el principio de la cola con 1 elemento para validar el caso base de encolar
+Esta vacia: 0
+
+-!-61::0-?-?-Imprimo si esta vacia o llena antes y despues de agregar, verificando que encolar funcione
+Largo de cola: 5
+
+-!-62::0-?-?-Imprimo largo luego de agregar
+el primer elemento antes de desencolar es: 4
+el primer elemento luego de desencolar es: 5
+la cantidad de elementos luego de desencolar es: 4
+
+-!-63::0-?-?-Imprimo el primer elemento antes y despues de desencolar, verificando que disminuya la cantidad de elementos
+elementos de la cola: 
+5,2,3,-1
+
+-!-64::0-?-?-Clono e imprimo los elementos de la cola clonando y desencolando
+Largo de clon luego de vaciarlo: 0
+Largo de la cola original luego de vaciar clon: 4
+
+-!-65::0-?-?-Verifico que se modifique el clon y no el original
+El principio de la cola clon luego de agregar 3 elementos es: 38
+El principio de la cola clon luego de desencolar 2 elementos es: -16
+
+-!-66::0-?-?-Verifico que encolar y desencolar elementos no altere la estructura de la cola
+vacio el clon totalmente. Cantidad de elementos: 0
+Es vacia: 1
+
+-!-67::0-?-?-Verifico que funcione el caso base de desencolar dejando la cola vacia
+cantidad de elementos de la cola original luego de destruir clon: 4principio de la cola original luego de destruir clon5
+-!-68::0-?-?-Verifico que destruir el clon no altere la cola original
+elementos de la cola: 
+5,2,3,-1
+elementos del clon de la cola: 
+5,2,3,-1
+
+-!-69::0-?-?-Verifico que el clon copie todos los elementos de la cola
+
+-!-70::0-?-?-Libero memoria
+-!-Fin::PRUEBAS ColaInt
+-!-Ini::PRUEBAS Diccionario
+Largo de diccionario: 6
+
+-!-71::0-?-?-Imprimo largo luego de agregar
+Clon de diccionario: (-5,-1,4,5,7,15)
+
+-!-72::0-?-?-Clono e imprimo
+Largo de clon luego de vaciarlo: 0
+Largo de diccionario luego de vaciar clon: 6
+
+-!-73::0-?-?-Verifico que se modifique el clon y no el original
+Largo de diccionario luego de borrar 3 elementos: 3
+Diccionario luego de borrar 3 elementos: (-1,4,7)
+
+-!-74::0-?-?-Borro algunos elementos
+
+-!-75::0-?-?-Libero memoria
+-!-Fin::PRUEBAS Diccionario
+-!-Ini::PRUEBAS ListaOrdInt
+Largo de lista Ord: 7
+
+-!-76::0-?-?-Imprimo largo luego de agregar 7 elementos
+Elemento del principio de lista Ord: -2
+Elemento del final de lista Ord: 15
+
+-!-77::0-?-?-Imprimo el primer elemento de la lista y el utlimo
+Elimino el -2 de la lista
+El largo de la lista ord 6
+
+-!-78::0-?-?-Imprimo largo luego de borrar el minimo
+Elimino el 15 de la lista
+El largo de la lista ord 5
+
+-!-79::0-?-?-Imprimo largo luego de borrar el maximo
+Elimino un elemento que no existe en la lista
+El largo de la lista ord 5
+
+-!-80::0-?-?-Imprimo largo luego de borrar un elemento que no existe
+Elimino un elemento que existe en la lista
+El largo de la lista ord 4
+
+-!-81::0-?-?-Imprimo largo luego de borrar un elemento que existe
+La lista  no  es vacia
+
+-!-82::0-?-?-Imprimo la lista no es vacia
+La lista  no  contiene el elemento 32
+
+-!-83::0-?-?-Imprimo la lista no contiene el elemento 32
+La lista  si  contiene el elemento 7
+
+-!-84::0-?-?-Imprimo la lista si contiene el elemento 7
+Clon de lista Ord: -1,5,5,7
+
+
+-!-85::0-?-?-Clono e imprimo
+Largo de clon luego de vaciarlo: 0
+Largo de lista Ord luego de vaciar clon: 4
+
+-!-86::0-?-?-Verifico que se modifique el clon y no el original
+Largo de lista Ord luego de borrar 4 elementos: 0
+
+-!-87::0-?-?-Imprimo luego de borrar elementos
+Lista ord luego de borrar los elementos:
+Largo de lista Ord luego de vaciarla: 0
+
+-!-88::0-?-?-Borro algunos elementos y vacio la lista
+El largo de la lista ord 0
+
+-!-89::0-?-?-Imprimo largo luego de borrar el minimo en la lista vacia
+El largo de la lista ord 0
+
+-!-90::0-?-?-Imprimo largo luego de borrar el maximo en la lista vacia
+La lista vacia no  contiene el elemento 7
+
+-!-91::0-?-?-Imprimo la lista vacia no contiene el elemento 7
+
+-!-92::0-?-?-Libero memoria
+-!-Fin::PRUEBAS ListaOrdInt
+-!-Ini::PRUEBAS TablaIntString
+Largo de la tabla: 5
+
+-!-93::0-?-?-Imprimio largo luego de agregar 5 elementos
+Largo del clon: 5
+
+-!-94::0-?-?-Imprimio largo del clon luego de clonar la tabla
+Elementos del dominio del Clon de la tabla: (1,2,3,4,5)
+
+-!-95::0-?-?-Clono e imprimo
+Largo de clon luego de vaciarlo: 0
+Largo de Tabla luego de vaciar clon: 5
+
+-!-96::0-?-?-Verifico que se modifique el clon y no el original
+Largo de la tabla luego de agregar dos elemento :7
+
+-!-97::0-?-?-Verifico que se agregue los elementos a la tabla
+El 7  si  esta definido en la tabla
+
+-!-98::0-?-?-Verifico que el elemento 7 esta definido
+El elemento  de dominio 7 le corresponde : char
+
+-!-99::0-?-?-Verifico que el elemento 7 tenga datos asociados
+El 7  no  esta definido en la tabla
+
+-!-100::0-?-?-Verifico que el elemento 7 no esta definido
+Consigo un dominio cualquiera de la tabla : 1
+
+-!-101::0-?-?-Verifico que la tabla me devuelva un dominio cualquiera
+La tabla  no  es vacia
+
+-!-102::0-?-?-Verifico que la tabla no sea vacia
+
+-!-103::0-?-?-Libero memoria
+-!-Fin::PRUEBAS TablaIntString
+-!-Ini::PRUEBAS MultisetInt
+Largo de lista Pos: 8
+
+-!-104::0-?-?-Imprimo largo luego de agregar
+Clon de multiset: (-2,-1,4,5,5,7,7,15)
+
+-!-105::0-?-?-Clono e imprimo
+Largo de clon luego de vaciarlo: 0
+Largo de Set luego de vaciar clon: 8
+
+-!-106::0-?-?-Verifico que se modifique el clon y no el original
+Union de multiset: (-2,-1,1,2,2,2,4,4,5,5,7,7,13,15)
+
+-!-107::0-?-?-Hago union e imprimo
+Largo de la union luego de vaciarlo: 0
+Largo de Multiset1 luego de vaciar la union: 8
+Largo de Multiset2 luego de vaciar la union: 11
+
+-!-108::0-?-?-Verifico que se modifique la union y no los originales
+Interseccion de multiset: (4,5,5,7,15)
+
+-!-109::0-?-?-Hago interseccion e imprimo
+Largo de la interseccion luego de vaciarlo: 0
+Largo de Multiset1 luego de vaciar la interseccion: 8
+Largo de Multiset2 luego de vaciar la interseccion: 11
+
+-!-110::0-?-?-Verifico que se modifique la interseccion y no los originales
+Diferencia de multiset: (-2,-1,7)
+
+-!-111::0-?-?-Hago diferencia e imprimo
+Largo de la diferencia luego de vaciarlo: 0
+Largo de Multiset1 luego de vaciar la diferencia: 8
+Largo de Multiset2 luego de vaciar la diferencia: 11
+
+-!-112::0-?-?-Verifico que se modifique la diferencia y no los originales
+Pertenece elemento: 1
+Pertenece elemento luego de borrarlo: 0
+Pertenece otro elemento: 0
+
+-!-113::0-?-?-Verifico si pertenecen algunos elementos
+Subconjunto: 0
+Subconjunto luego de borrar elementos: 0
+Subconjunto luego de borrar mas elementos: 1
+Es vacio: 1
+Cantidad elementos de vacio: 0
+Subconjunto vacio: 1
+
+-!-114::0-?-?-Verifico si a partir de un Multiset que no pertenece a otro, luego de borrarle algunos elementos, si pertenece
+Largo del multiset luego de borrar otro elemento: 5
+Multiset luego de haber borrado 2 elementos: (-2,4,5,7,7)
+
+-!-115::0-?-?-Borro algunos elementos
+
+-!-116::0-?-?-Libero memoria
+-!-Fin::PRUEBAS MultisetInt
+-!-Ini::PRUEBAS ColaPrioridadInt
+La cola de prioridad esta llena? NO
+
+-!-117::0-?-?-Verifico si la cola se lleno
+La cola de prioridad esta llena? SI
+
+-!-118::0-?-?-Verifico si la cola se lleno
+Cantidad de elementos de la cola: 10
+
+-!-119::0-?-?-Imprimo largo luego de agregar
+Clon de elementos colaPrioridadInt: 9:9,8:8,6:6,5:5,3:3,2:3,-5:3,20:3,1:1,1:-1
+
+-!-120::0-?-?-Clono e imprimo
+Cantidad de elementos del clon luego de vaciarlo: 0
+Cantidad de elementos de la cola luego de vaciar clon: 10
+
+-!-121::0-?-?-Verifico que se modifique el clon y no el original
+Clon de prioridades colaPrioridadInt: 9:9,8:8,6:6,5:5,3:3,2:3,-5:3,20:3,1:1,1:-1
+
+-!-122::0-?-?-Clono e imprimo
+Cantidad de elementos del clon luego de vaciarlo: 0
+Cantidad de elementos de la cola luego de vaciar clon: 10
+
+-!-123::0-?-?-Verifico que se modifique el clon y no el original
+Cantidad de elementos luego de borrar 3 elementos: 7
+
+-!-124::0-?-?-Cantidad de elementos luego de borrar 3 elementos
+
+-!-125::0-?-?-Libero memoria
+-!-Fin::PRUEBAS ColaPrioridadInt

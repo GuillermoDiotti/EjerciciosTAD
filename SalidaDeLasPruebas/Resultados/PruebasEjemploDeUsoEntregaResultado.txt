@@ -1,0 +1,328 @@
+********* INICIO PRUEBAS Enlistar*******
+-----------------------------------
+Prueba 0: Prueba de pasar ABB a ListaOrd 1 -> OK
+-----------------------------------
+Prueba 1: Prueba de pasar ABB a ListaOrd 2 -> OK
+-----------------------------------
+Prueba 2: Prueba de pasar ABB a ListaOrd 3 -> OK
+********* FIN PRUEBAS Enlistar*******
+
+PRUEBAS FUNCION PRUEBAS Enlistar                                   PRUEBAS CORRECTAS
+
+********* INICIO PRUEBAS UnionListaOrd*******
+-----------------------------------
+Prueba 3: Prueba union de dos listas ordenadas 1 -> OK
+-----------------------------------
+Prueba 4: Prueba union de dos listas ordenadas 2 -> OK
+-----------------------------------
+Prueba 5: Prueba union de dos listas ordenadas 3 -> OK
+********* FIN PRUEBAS UnionListaOrd*******
+
+PRUEBAS FUNCION PRUEBAS UnionListaOrd                              PRUEBAS CORRECTAS
+
+********* INICIO PRUEBAS EstaContenida*******
+-----------------------------------
+Prueba 6: Prueba de pila contenida 1 -> OK
+-----------------------------------
+Prueba 7: Prueba de pila contenida 2 -> OK
+-----------------------------------
+Prueba 8: Prueba de pila contenida 3 -> OK
+-----------------------------------
+Prueba 9: Prueba de pila contenida 4 -> OK
+********* FIN PRUEBAS EstaContenida*******
+
+PRUEBAS FUNCION PRUEBAS EstaContenida                              PRUEBAS CORRECTAS
+
+********* INICIO PRUEBAS ObtenerRepetidos*******
+-----------------------------------
+Prueba 10: Prueba ObtenerRepetidos 1 -> OK
+-----------------------------------
+Prueba 11: Prueba ObtenerRepetidos 2 -> OK
+-----------------------------------
+Prueba 12: Prueba ObtenerRepetidos 3 -> OK
+-----------------------------------
+Prueba 13: Prueba ObtenerRepetidos 4 -> OK
+-----------------------------------
+Prueba 14: Prueba ObtenerRepetidos 5 -> OK
+-----------------------------------
+Prueba 15: Prueba ObtenerRepetidos 6 -> OK
+-----------------------------------
+Prueba 16: Prueba ObtenerRepetidos 7 -> OK
+-----------------------------------
+Prueba 17: Prueba ObtenerRepetidos 8 -> OK
+-----------------------------------
+Prueba 18: Prueba ObtenerRepetidos 9 -> OK
+-----------------------------------
+Prueba 19: Prueba ObtenerRepetidos 10 -> OK
+-----------------------------------
+Prueba 20: Prueba ObtenerRepetidos 11 -> OK
+-----------------------------------
+Prueba 21: Prueba ObtenerRepetidos 12 -> OK
+********* FIN PRUEBAS ObtenerRepetidos*******
+
+PRUEBAS FUNCION PRUEBAS ObtenerRepetidos                           PRUEBAS CORRECTAS
+
+********* INICIO PRUEBAS Xor*******
+-----------------------------------
+Prueba 22: Prueba Xor de multisets 1 -> OK
+-----------------------------------
+Prueba 23: Prueba Xor de multisets 2 -> OK
+-----------------------------------
+Prueba 24: Prueba Xor de multisets 3 -> OK
+-----------------------------------
+Prueba 25: Prueba Xor de multisets 4 -> OK
+-----------------------------------
+Prueba 26: Prueba Xor de multisets 5 -> OK
+-----------------------------------
+Prueba 27: Prueba Xor de multisets 6 -> OK
+-----------------------------------
+Prueba 28: Prueba Xor de multisets 7 -> OK
+-----------------------------------
+Prueba 29: Prueba Xor de multisets 8 -> OK
+-----------------------------------
+Prueba 30: Prueba Xor de multisets 9 -> OK
+-----------------------------------
+Prueba 31: Prueba Xor de multisets 10 -> OK
+********* FIN PRUEBAS Xor*******
+
+PRUEBAS FUNCION PRUEBAS Xor                                        PRUEBAS CORRECTAS
+
+********* INICIO PRUEBAS MenorPrioridad*******
+-----------------------------------
+Prueba 32: Prueba pruebaMenorPrioridad 1 -> OK
+-----------------------------------
+Prueba 33: Prueba pruebaMenorPrioridad 2 -> OK
+-----------------------------------
+Prueba 34: Prueba pruebaMenorPrioridad 3 -> OK
+-----------------------------------
+Prueba 35: Prueba pruebaMenorPrioridad 4 -> OK
+-----------------------------------
+Prueba 36: Prueba pruebaMenorPrioridad 5 -> OK
+-----------------------------------
+Prueba 37: Prueba pruebaMenorPrioridad 6 -> OK
+-----------------------------------
+Prueba 38: Prueba pruebaMenorPrioridad 7 -> OK
+-----------------------------------
+Prueba 39: Prueba pruebaMenorPrioridad 8 -> OK
+-----------------------------------
+Prueba 40: Prueba pruebaMenorPrioridad 9 -> OK
+-----------------------------------
+Prueba 41: Prueba pruebaMenorPrioridad 10 -> OK
+********* FIN PRUEBAS MenorPrioridad*******
+
+PRUEBAS FUNCION PRUEBAS MenorPrioridad                             PRUEBAS CORRECTAS
+
+********* INICIO PRUEBAS PilaInt*******
+-----------------------------------
+Prueba 42: Imprimo la cantidad de elementos al crear la pila y valido que sea vacia -> OK
+-----------------------------------
+Prueba 43: Imprimo el tope de la pila con 1 elemento para validar el caso base de push -> OK
+-----------------------------------
+Prueba 44: Imprimo si esta vacia o llena antes y despues de agregar, verificando que push funcione -> OK
+-----------------------------------
+Prueba 45: Imprimo largo luego de agregar -> OK
+-----------------------------------
+Prueba 46: Imprimo el primer elemento antes y despues del pop, verificando que disminuya la cantidad de elementos -> OK
+-----------------------------------
+Prueba 47: Clono e imprimo los elementos de la pila clonando y poppeando -> OK
+-----------------------------------
+Prueba 48: Verifico que se modifique el clon y no el original -> OK
+-----------------------------------
+Prueba 49: Verifico que pushear y poppear elementos no altere la estructura de la pila -> OK
+-----------------------------------
+Prueba 50: Verifico que funcione el caso base de pop dejando la pila vacia -> OK
+-----------------------------------
+Prueba 51: Verifico que destruir el clon no altere la pila original -> OK
+-----------------------------------
+Prueba 52: Verifico que el clon copie todos los elementos de la pila -> OK
+-----------------------------------
+Prueba 53: Libero memoria -> OK
+********* FIN PRUEBAS PilaInt*******
+
+PRUEBAS FUNCION PRUEBAS PilaInt                                    PRUEBAS CORRECTAS
+
+********* INICIO PRUEBAS ListaPosInt*******
+-----------------------------------
+Prueba 54: Imprimo largo luego de agregar -> OK
+-----------------------------------
+Prueba 55: Clono e imprimo -> OK
+-----------------------------------
+Prueba 56: Verifico que se modifique el clon y no el original -> OK
+-----------------------------------
+Prueba 57: Borro algunos elementos y vacio la lista -> OK
+-----------------------------------
+Prueba 58: Libero memoria -> OK
+********* FIN PRUEBAS ListaPosInt*******
+
+PRUEBAS FUNCION PRUEBAS ListaPosInt                                PRUEBAS CORRECTAS
+
+********* INICIO PRUEBAS ColaInt*******
+-----------------------------------
+Prueba 59: Imprimo la cantidad de elementos al crear la cola y valido que sea vacia -> OK
+-----------------------------------
+Prueba 60: Imprimo el principio de la cola con 1 elemento para validar el caso base de encolar -> OK
+-----------------------------------
+Prueba 61: Imprimo si esta vacia o llena antes y despues de agregar, verificando que encolar funcione -> OK
+-----------------------------------
+Prueba 62: Imprimo largo luego de agregar -> OK
+-----------------------------------
+Prueba 63: Imprimo el primer elemento antes y despues de desencolar, verificando que disminuya la cantidad de elementos -> OK
+-----------------------------------
+Prueba 64: Clono e imprimo los elementos de la cola clonando y desencolando -> OK
+-----------------------------------
+Prueba 65: Verifico que se modifique el clon y no el original -> OK
+-----------------------------------
+Prueba 66: Verifico que encolar y desencolar elementos no altere la estructura de la cola -> OK
+-----------------------------------
+Prueba 67: Verifico que funcione el caso base de desencolar dejando la cola vacia -> OK
+-----------------------------------
+Prueba 68: Verifico que destruir el clon no altere la cola original -> OK
+-----------------------------------
+Prueba 69: Verifico que el clon copie todos los elementos de la cola -> OK
+-----------------------------------
+Prueba 70: Libero memoria -> OK
+********* FIN PRUEBAS ColaInt*******
+
+PRUEBAS FUNCION PRUEBAS ColaInt                                    PRUEBAS CORRECTAS
+
+********* INICIO PRUEBAS Diccionario*******
+-----------------------------------
+Prueba 71: Imprimo largo luego de agregar -> OK
+-----------------------------------
+Prueba 72: Clono e imprimo -> OK
+-----------------------------------
+Prueba 73: Verifico que se modifique el clon y no el original -> OK
+-----------------------------------
+Prueba 74: Borro algunos elementos -> OK
+-----------------------------------
+Prueba 75: Libero memoria -> OK
+********* FIN PRUEBAS Diccionario*******
+
+PRUEBAS FUNCION PRUEBAS Diccionario                                PRUEBAS CORRECTAS
+
+********* INICIO PRUEBAS ListaOrdInt*******
+-----------------------------------
+Prueba 76: Imprimo largo luego de agregar 7 elementos -> OK
+-----------------------------------
+Prueba 77: Imprimo el primer elemento de la lista y el utlimo -> OK
+-----------------------------------
+Prueba 78: Imprimo largo luego de borrar el minimo -> OK
+-----------------------------------
+Prueba 79: Imprimo largo luego de borrar el maximo -> OK
+-----------------------------------
+Prueba 80: Imprimo largo luego de borrar un elemento que no existe -> OK
+-----------------------------------
+Prueba 81: Imprimo largo luego de borrar un elemento que existe -> OK
+-----------------------------------
+Prueba 82: Imprimo la lista no es vacia -> OK
+-----------------------------------
+Prueba 83: Imprimo la lista no contiene el elemento 32 -> OK
+-----------------------------------
+Prueba 84: Imprimo la lista si contiene el elemento 7 -> OK
+-----------------------------------
+Prueba 85: Clono e imprimo -> OK
+-----------------------------------
+Prueba 86: Verifico que se modifique el clon y no el original -> OK
+-----------------------------------
+Prueba 87: Imprimo luego de borrar elementos -> OK
+-----------------------------------
+Prueba 88: Borro algunos elementos y vacio la lista -> OK
+-----------------------------------
+Prueba 89: Imprimo largo luego de borrar el minimo en la lista vacia -> OK
+-----------------------------------
+Prueba 90: Imprimo largo luego de borrar el maximo en la lista vacia -> OK
+-----------------------------------
+Prueba 91: Imprimo la lista vacia no contiene el elemento 7 -> OK
+-----------------------------------
+Prueba 92: Libero memoria -> OK
+********* FIN PRUEBAS ListaOrdInt*******
+
+PRUEBAS FUNCION PRUEBAS ListaOrdInt                                PRUEBAS CORRECTAS
+
+********* INICIO PRUEBAS TablaIntString*******
+-----------------------------------
+Prueba 93: Imprimio largo luego de agregar 5 elementos -> OK
+-----------------------------------
+Prueba 94: Imprimio largo del clon luego de clonar la tabla -> OK
+-----------------------------------
+Prueba 95: Clono e imprimo -> OK
+-----------------------------------
+Prueba 96: Verifico que se modifique el clon y no el original -> OK
+-----------------------------------
+Prueba 97: Verifico que se agregue los elementos a la tabla -> OK
+-----------------------------------
+Prueba 98: Verifico que el elemento 7 esta definido -> OK
+-----------------------------------
+Prueba 99: Verifico que el elemento 7 tenga datos asociados -> OK
+-----------------------------------
+Prueba 100: Verifico que el elemento 7 no esta definido -> OK
+-----------------------------------
+Prueba 101: Verifico que la tabla me devuelva un dominio cualquiera -> OK
+-----------------------------------
+Prueba 102: Verifico que la tabla no sea vacia -> OK
+-----------------------------------
+Prueba 103: Libero memoria -> OK
+********* FIN PRUEBAS TablaIntString*******
+
+PRUEBAS FUNCION PRUEBAS TablaIntString                             PRUEBAS CORRECTAS
+
+********* INICIO PRUEBAS MultisetInt*******
+-----------------------------------
+Prueba 104: Imprimo largo luego de agregar -> OK
+-----------------------------------
+Prueba 105: Clono e imprimo -> OK
+-----------------------------------
+Prueba 106: Verifico que se modifique el clon y no el original -> OK
+-----------------------------------
+Prueba 107: Hago union e imprimo -> OK
+-----------------------------------
+Prueba 108: Verifico que se modifique la union y no los originales -> OK
+-----------------------------------
+Prueba 109: Hago interseccion e imprimo -> OK
+-----------------------------------
+Prueba 110: Verifico que se modifique la interseccion y no los originales -> OK
+-----------------------------------
+Prueba 111: Hago diferencia e imprimo -> OK
+-----------------------------------
+Prueba 112: Verifico que se modifique la diferencia y no los originales -> OK
+-----------------------------------
+Prueba 113: Verifico si pertenecen algunos elementos -> OK
+-----------------------------------
+Prueba 114: Verifico si a partir de un Multiset que no pertenece a otro, luego de borrarle algunos elementos, si pertenece -> OK
+-----------------------------------
+Prueba 115: Borro algunos elementos -> OK
+-----------------------------------
+Prueba 116: Libero memoria -> OK
+********* FIN PRUEBAS MultisetInt*******
+
+PRUEBAS FUNCION PRUEBAS MultisetInt                                PRUEBAS CORRECTAS
+
+********* INICIO PRUEBAS ColaPrioridadInt*******
+-----------------------------------
+Prueba 117: Verifico si la cola se lleno -> OK
+-----------------------------------
+Prueba 118: Verifico si la cola se lleno -> OK
+-----------------------------------
+Prueba 119: Imprimo largo luego de agregar -> OK
+-----------------------------------
+Prueba 120: Clono e imprimo -> OK
+-----------------------------------
+Prueba 121: Verifico que se modifique el clon y no el original -> OK
+-----------------------------------
+Prueba 122: Clono e imprimo -> OK
+-----------------------------------
+Prueba 123: Verifico que se modifique el clon y no el original -> OK
+-----------------------------------
+Prueba 124: Cantidad de elementos luego de borrar 3 elementos -> OK
+-----------------------------------
+Prueba 125: Libero memoria -> OK
+********* FIN PRUEBAS ColaPrioridadInt*******
+
+PRUEBAS FUNCION PRUEBAS ColaPrioridadInt                           PRUEBAS CORRECTAS
+
+
+
+----------------
+PRUEBAS FUNCIONES 
+PRUEBAS FUNCIONES RESULTADO ../PruebasEjemploDeUsoEntrega.txt   => CORRECTAS: 14 INCORRECTAS:  0
+PRUEBAS FUNCIONES 

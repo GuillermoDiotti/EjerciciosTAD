@@ -1,0 +1,17 @@
+﻿  ColaPrioridadIntImp.cpp
+  DiccionarioIntImp.cpp
+C:\Users\USUARIO\Desktop\ej2\DiccionarioIntImp.cpp(62,23): warning C4018: '<': no coinciden signed/unsigned
+  Ejercicios.cpp
+C:\Users\USUARIO\Desktop\ej2\Ejercicios.cpp(140,61): warning C4018: '<': no coinciden signed/unsigned
+  ListaOrdIntImp2.cpp
+  ListaPosIntImp.cpp
+C:\Users\USUARIO\Desktop\ej2\ListaPosIntImp.cpp(18,23): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\USUARIO\Desktop\ej2\ListaPosIntImp.cpp(52,50): warning C4018: '>': no coinciden signed/unsigned
+C:\Users\USUARIO\Desktop\ej2\ListaPosIntImp.cpp(64,29): warning C4018: '<': no coinciden signed/unsigned
+  MultisetIntImp.cpp
+  PilaIntImp.cpp
+C:\Users\USUARIO\Desktop\ej2\PilaIntImp.cpp(24,14): warning C4018: '<': no coinciden signed/unsigned
+  TablaIntStringImp.cpp
+C:\Users\USUARIO\Desktop\ej2\TablaIntStringImp.cpp(60,23): warning C4018: '<': no coinciden signed/unsigned
+  Generando código...
+  aFramework.vcxproj -> C:\Users\USUARIO\Desktop\ej2\Debug\aFramework.exe

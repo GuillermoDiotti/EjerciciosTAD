@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{569827c8-1bdd-4db5-98dd-2a05a665a503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones">
+      <UniqueIdentifier>{f6b3581e-7df9-403a-995e-f9f620cc6a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Listas">
+      <UniqueIdentifier>{e1aec668-7414-44fe-825e-e52a29764fa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Pilas">
+      <UniqueIdentifier>{ce463486-1170-4b24-81d2-bc04f2442cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pruebas">
+      <UniqueIdentifier>{82aca4fb-ba0f-42f2-84d8-e088fd51a42f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Colas">
+      <UniqueIdentifier>{8956dd65-e525-4adf-8e53-ac305fe29c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Manejadores">
+      <UniqueIdentifier>{0a97e6b1-2dba-4959-8ce0-31a97f351f75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Auxiliares">
+      <UniqueIdentifier>{2a46264b-afcf-4084-aced-b1a5e3216cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\ArchivosPrueba">
+      <UniqueIdentifier>{79a4a383-901e-44b3-bc3a-83178fe7707b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Colas\ColaInt">
+      <UniqueIdentifier>{fe1db769-9a75-446a-bdb4-5db54a488a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Listas\ListaOrdInt">
+      <UniqueIdentifier>{7e347a8e-950f-45f7-9f11-c43fea2148e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Listas\ListaPosInt">
+      <UniqueIdentifier>{ee23baba-b285-46d6-a88a-403726ed8d32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Diccionarios">
+      <UniqueIdentifier>{add713cf-93ee-4759-a269-e10610199e8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Conjuntos">
+      <UniqueIdentifier>{381e0beb-a75f-4b0a-a0b2-6477b56ccec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Tablas">
+      <UniqueIdentifier>{7d6e9044-5ac7-4bd2-ac68-a554b6275f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ejercicios">
+      <UniqueIdentifier>{833bc54d-0d34-4f8a-982f-f40d3ed54d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Diccionarios\DiccionarioInt">
+      <UniqueIdentifier>{286b464c-8c36-4744-89ae-ad3ded0e9f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Pilas\PilaInt">
+      <UniqueIdentifier>{974fbd4c-b228-4a17-bfac-feece1eac3f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Conjuntos\MultisetInt">
+      <UniqueIdentifier>{effde6a9-abe8-46bd-97bc-8e8acd6bbaef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Conjuntos\SetInt">
+      <UniqueIdentifier>{b6d0e6f3-31a0-4784-8341-fd10f7991aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Colas\ColaPrioridadInt">
+      <UniqueIdentifier>{68987dc4-d13f-40d7-82de-087b2f0dbfa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pruebas\TAD">
+      <UniqueIdentifier>{20077d21-e798-47d0-990f-1f6ef97294f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Tablas\TablaIntString">
+      <UniqueIdentifier>{46cedea3-a138-46e8-8b66-66d8b4670de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pruebas\Aux">
+      <UniqueIdentifier>{2f3350a4-77ff-497c-98f9-6f4f342aabf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colecciones\Tablas\TablaIntInt">
+      <UniqueIdentifier>{f67645c5-72c1-40f9-86cf-846b7b6c2f2f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PruebasPropias.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasCorreccion.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="Constantes.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="TipoRetorno.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ManejadorArchivos.h">
+      <Filter>Framework\Manejadores</Filter>
+    </ClInclude>
+    <ClInclude Include="ManejadorImpresionPrueba.h">
+      <Filter>Framework\Manejadores</Filter>
+    </ClInclude>
+    <ClInclude Include="ManejadorSalidaPrueba.h">
+      <Filter>Framework\Manejadores</Filter>
+    </ClInclude>
+    <ClInclude Include="ColaArray.h">
+      <Filter>Framework\Auxiliares</Filter>
+    </ClInclude>
+    <ClInclude Include="Definiciones.h">
+      <Filter>Framework\Auxiliares</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncAux.h">
+      <Filter>Framework\Auxiliares</Filter>
+    </ClInclude>
+    <ClInclude Include="ConductorPruebaObl2.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="ConductorPrueba.h">
+      <Filter>Framework\ArchivosPrueba</Filter>
+    </ClInclude>
+    <ClInclude Include="EstadisticaPrueba.h">
+      <Filter>Framework\ArchivosPrueba</Filter>
+    </ClInclude>
+    <ClInclude Include="Prueba.h">
+      <Filter>Framework\ArchivosPrueba</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncAux_s.h">
+      <Filter>Framework\Auxiliares</Filter>
+    </ClInclude>
+    <ClInclude Include="ColaInt.h">
+      <Filter>Colecciones\Colas\ColaInt</Filter>
+    </ClInclude>
+    <ClInclude Include="ColaIntImp.h">
+      <Filter>Colecciones\Colas\ColaInt</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaOrdInt.h">
+      <Filter>Colecciones\Listas\ListaOrdInt</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaOrdIntImp.h">
+      <Filter>Colecciones\Listas\ListaOrdInt</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaPosInt.h">
+      <Filter>Colecciones\Listas\ListaPosInt</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaPosIntImp.h">
+      <Filter>Colecciones\Listas\ListaPosInt</Filter>
+    </ClInclude>
+    <ClInclude Include="Ejercicios.h">
+      <Filter>Ejercicios</Filter>
+    </ClInclude>
+    <ClInclude Include="DiccionarioInt.h">
+      <Filter>Colecciones\Diccionarios\DiccionarioInt</Filter>
+    </ClInclude>
+    <ClInclude Include="DiccionarioIntImp.h">
+      <Filter>Colecciones\Diccionarios\DiccionarioInt</Filter>
+    </ClInclude>
+    <ClInclude Include="PilaIntImp.h">
+      <Filter>Colecciones\Pilas\PilaInt</Filter>
+    </ClInclude>
+    <ClInclude Include="PilaInt.h">
+      <Filter>Colecciones\Pilas\PilaInt</Filter>
+    </ClInclude>
+    <ClInclude Include="MultisetInt.h">
+      <Filter>Colecciones\Conjuntos\MultisetInt</Filter>
+    </ClInclude>
+    <ClInclude Include="SetInt.h">
+      <Filter>Colecciones\Conjuntos\SetInt</Filter>
+    </ClInclude>
+    <ClInclude Include="MultisetIntImp.h">
+      <Filter>Colecciones\Conjuntos\MultisetInt</Filter>
+    </ClInclude>
+    <ClInclude Include="SetIntImp.h">
+      <Filter>Colecciones\Conjuntos\SetInt</Filter>
+    </ClInclude>
+    <ClInclude Include="ColaPrioridadInt.h">
+      <Filter>Colecciones\Colas\ColaPrioridadInt</Filter>
+    </ClInclude>
+    <ClInclude Include="ColaPrioridadIntImp.h">
+      <Filter>Colecciones\Colas\ColaPrioridadInt</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasDiccionarioInt.h">
+      <Filter>Pruebas\TAD</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasColaInt.h">
+      <Filter>Pruebas\TAD</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasListaOrdInt.h">
+      <Filter>Pruebas\TAD</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasListaPosInt.h">
+      <Filter>Pruebas\TAD</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasMultisetInt.h">
+      <Filter>Pruebas\TAD</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasPilaInt.h">
+      <Filter>Pruebas\TAD</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasSetInt.h">
+      <Filter>Pruebas\TAD</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasTablaIntString.h">
+      <Filter>Pruebas\TAD</Filter>
+    </ClInclude>
+    <ClInclude Include="TablaIntString.h">
+      <Filter>Colecciones\Tablas\TablaIntString</Filter>
+    </ClInclude>
+    <ClInclude Include="TablaIntStringImp.h">
+      <Filter>Colecciones\Tablas\TablaIntString</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasColaPrioridadInt.h">
+      <Filter>Pruebas\TAD</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasDefensa.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasAuxDefensa.h">
+      <Filter>Pruebas\Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncAuxTAD.h">
+      <Filter>Framework\Auxiliares</Filter>
+    </ClInclude>
+    <ClInclude Include="Defensa.h">
+      <Filter>Ejercicios</Filter>
+    </ClInclude>
+    <ClInclude Include="TipoPruebas.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaOrdIntImp2.h">
+      <Filter>Colecciones\Listas\ListaOrdInt</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasAuxEntrega.h">
+      <Filter>Pruebas\Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasEjemploDeUsoEntrega.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="TablaIntInt.h">
+      <Filter>Colecciones\Tablas\TablaIntInt</Filter>
+    </ClInclude>
+    <ClInclude Include="TablaIntIntImp.h">
+      <Filter>Colecciones\Tablas\TablaIntInt</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasTablaIntInt.h">
+      <Filter>Pruebas\TAD</Filter>
+    </ClInclude>
+    <ClInclude Include="Implementaciones.h">
+      <Filter>Ejercicios</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PruebasCorreccion.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasPropias.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ManejadorArchivos.cpp">
+      <Filter>Framework\Manejadores</Filter>
+    </ClCompile>
+    <ClCompile Include="ManejadorImpresionPrueba.cpp">
+      <Filter>Framework\Manejadores</Filter>
+    </ClCompile>
+    <ClCompile Include="ManejadorSalidaPrueba.cpp">
+      <Filter>Framework\Manejadores</Filter>
+    </ClCompile>
+    <ClCompile Include="ColaArray.cpp">
+      <Filter>Framework\Auxiliares</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncAux.cpp">
+      <Filter>Framework\Auxiliares</Filter>
+    </ClCompile>
+    <ClCompile Include="ConductorPruebaObl2.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="ConductorPrueba.cpp">
+      <Filter>Framework\ArchivosPrueba</Filter>
+    </ClCompile>
+    <ClCompile Include="EstadisticaPrueba.cpp">
+      <Filter>Framework\ArchivosPrueba</Filter>
+    </ClCompile>
+    <ClCompile Include="Prueba.cpp">
+      <Filter>Framework\ArchivosPrueba</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncAux_s.cpp">
+      <Filter>Framework\Auxiliares</Filter>
+    </ClCompile>
+    <ClCompile Include="ColaIntImp.cpp">
+      <Filter>Colecciones\Colas\ColaInt</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaOrdIntImp.cpp">
+      <Filter>Colecciones\Listas\ListaOrdInt</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaPosIntImp.cpp">
+      <Filter>Colecciones\Listas\ListaPosInt</Filter>
+    </ClCompile>
+    <ClCompile Include="Ejercicios.cpp">
+      <Filter>Ejercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="DiccionarioIntImp.cpp">
+      <Filter>Colecciones\Diccionarios\DiccionarioInt</Filter>
+    </ClCompile>
+    <ClCompile Include="PilaIntImp.cpp">
+      <Filter>Colecciones\Pilas\PilaInt</Filter>
+    </ClCompile>
+    <ClCompile Include="MultisetIntImp.cpp">
+      <Filter>Colecciones\Conjuntos\MultisetInt</Filter>
+    </ClCompile>
+    <ClCompile Include="SetIntImp.cpp">
+      <Filter>Colecciones\Conjuntos\SetInt</Filter>
+    </ClCompile>
+    <ClCompile Include="ColaPrioridadIntImp.cpp">
+      <Filter>Colecciones\Colas\ColaPrioridadInt</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasDiccionarioInt.cpp">
+      <Filter>Pruebas\TAD</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasColaInt.cpp">
+      <Filter>Pruebas\TAD</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasListaOrdInt.cpp">
+      <Filter>Pruebas\TAD</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasListaPosInt.cpp">
+      <Filter>Pruebas\TAD</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasMultisetInt.cpp">
+      <Filter>Pruebas\TAD</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasPilaInt.cpp">
+      <Filter>Pruebas\TAD</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasSetInt.cpp">
+      <Filter>Pruebas\TAD</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasTablaIntString.cpp">
+      <Filter>Pruebas\TAD</Filter>
+    </ClCompile>
+    <ClCompile Include="TablaIntStringImp.cpp">
+      <Filter>Colecciones\Tablas\TablaIntString</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasColaPrioridadInt.cpp">
+      <Filter>Pruebas\TAD</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasDefensa.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasAuxDefensa.cpp">
+      <Filter>Pruebas\Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncAuxTAD.cpp">
+      <Filter>Framework\Auxiliares</Filter>
+    </ClCompile>
+    <ClCompile Include="Defensa.cpp">
+      <Filter>Ejercicios</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaOrdIntImp2.cpp">
+      <Filter>Colecciones\Listas\ListaOrdInt</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasAuxEntrega.cpp">
+      <Filter>Pruebas\Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasEjemploDeUsoEntrega.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="TablaIntIntImp.cpp">
+      <Filter>Colecciones\Tablas\TablaIntInt</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasTablaIntInt.cpp">
+      <Filter>Pruebas\TAD</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Ejercicios.txt">
+      <Filter>Ejercicios</Filter>
+    </Text>
+    <Text Include="Defensa.txt">
+      <Filter>Ejercicios</Filter>
+    </Text>
+    <Text Include="version.txt">
+      <Filter>Framework</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

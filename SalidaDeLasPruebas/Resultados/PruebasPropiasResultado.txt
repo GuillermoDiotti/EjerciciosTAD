@@ -1,0 +1,6 @@
+
+
+----------------
+PRUEBAS FUNCIONES 
+PRUEBAS FUNCIONES RESULTADO ../PruebasPropias.txt               => CORRECTAS:  0 INCORRECTAS:  0
+PRUEBAS FUNCIONES 

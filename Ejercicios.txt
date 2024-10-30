@@ -1,0 +1,99 @@
+EJERCICIOS 
+
+NOTA: No se tomaran en cuenta ejercicios que no ejecuten correctamente todas las pruebas que se entregan
+NOTA: Para poder ejecutar tienen que estar implementadas todas las operaciones del TAD (no puede estar a medias)
+
+1)	Considere la siguiente definicion del tipo arbol binario de enteros ordenado (ABB):
+	struct NodoABInt { 
+		int dato;
+		NodoABInt *izq, *der; 
+	};
+	Implemente una funcion Enlistar, que recibiendo un puntero a un ABB de tipo NodoABInt,
+	retorne una ListaOrdInt con los mismos elementos presentes en el arbol.
+	El arbol parametro debe recorrerse una unica vez.
+
+	ListaOrdInt Enlistar(NodoABInt* a)
+
+2)	Implemente una funcion UnionListaOrd que dadas dos listas de tipo ListaOrdInt: l1 y l2,
+	retorne una nueva lista ordenada (ListaOrdInt) que contenga todos los elementos presentes en l1 y l2. 
+	La nueva lista no debera compartir registros de memoria con las listas parametros y
+	las listas parametro no deberan ser modificadas.
+
+	ListaOrdInt UnionListaOrd(ListaOrdInt l1, ListaOrdInt l2);
+
+3)	Complete la implementacion PilaIntImp del TAD PilaInt especificado en el proyecto,
+	de forma que las operaciones para push, top, pop y cantidadElementos se realicen 
+	en tiempo de ejecucion constante en el peor caso.
+	La implementacion no debe ser acotada.
+
+4)	Complete la implementacion ListaPosIntImp del TAD ListaPosInt especificado en el proyecto,
+	de forma que las operaciones elemento y cantidadElementos se realicen en tiempo de ejecucion
+	constante en el peor caso. 
+	La implementacion no debe ser acotada.
+
+5)	Implemente la funcion EstaContenida que dadas dos pilas: p1 y p2, de tipo PilaInt retorne true si y solo
+	si todos los elementos de p1 se encuentran en p2.
+	Si hay valores repetidos en p1, entonces se tienen que encontrar como minimo la misma cantidad 
+	de repetidos de ese valor en p2.
+	Las pilas parametro no deberan ser modificadas.
+	La pila vacia esta contenida en cualquier pila.
+
+	bool EstaContenida(PilaInt p1, PilaInt p2)  
+
+6)	Complete la implementacion ColaIntImp del TAD ColaInt especificado en el proyecto,
+	de forma que las operaciones para encolar, principio, desencolar y cantidadElementos
+	se realicen en tiempo de ejecucion constante en el peor caso.  
+	La implementacion no debe ser acotada.
+
+7)	Complete la implementacion DiccionarioIntImp del TAD DiccionarioInt especificado en el proyecto, 
+	de forma que las operaciones agregar, borrar y pertenece se realicen en tiempo de ejecucion O(1) promedio. 
+	Usar hashing abierto, considerando a la operacion modulo adecuada como funcion de hash.
+	La implementacion no debe ser acotada. 
+	Al crear el diccionario se recibe la cantidad esperada de elementos, aunque puedan insertarse mas elementos.
+
+8)	Complete la implementacion ListaOrdIntImp2 del TAD ListaOrdInt especificado en el proyecto, de forma que 
+	las operaciones agregar, borrar, existe se realicen en tiempo de ejecucion O(log2n) en promedio y 
+	cantidadElementos en O(1). 
+	La implementacion no debe ser acotada.
+	NOTA: Para poder usar ListaOrdIntImp2 hay que modificar el archivo "Implementaciones.h"
+
+9)	Complete la implementacion TablaIntStringImp del TAD TablaIntString especificado en el proyecto, 
+	de forma que las operaciones agregar, borrar, estaDefinida y recuperar se realicen en 
+	tiempo de ejecucion O(1) promedio. 
+	Usar hashing abierto, considerando a la operacion modulo adecuada como funcion de hash.
+	La implementacion no debe ser acotada. 
+	Al crear la tabla se recibe la cantidad esperada de elementos, aunque puedan insertarse mas elementos.
+
+10)	Complete la implementacion MultisetIntImp del TAD MultisetInt especificado en el proyecto.
+	La implementacion no debe ser acotada.
+
+11)	Dado un multiset, retorna una ListaOrdInt con los elementos que aparecen mas de una vez en el multiset.
+	Ejemplo: 
+	Dado el multiset con los elementos (1,5,9,1,2,9,9) retorna la lista (1,9)
+
+	ListaOrdInt ObtenerRepetidos(MultisetInt m); 
+
+12)	Dados dos multisets m1 y m2, retorna un nuevo multiset con los elementos que estan en m1 o en m2, pero no en los dos.
+	Los multisets parametro no deberan ser modificados. 
+
+	MultisetInt Xor(MultisetInt m1, MultisetInt m2);	
+
+13)	Complete la implementacion ColaPrioridadImp del TAD ColaPrioridad especificado en el proyecto.
+	La implementacion SI debe ser acotada.
+
+14)	Implemente una funcion MenorPrioridad que dada una cola de prioridad retorne una nueva cola de prioridad que solamente contenga
+	los elementos que tengan la menor prioridad (varios elementos pueden tener la misma prioridad pero distinto orden de llegada).
+	Si la cola es vacia entonces se debe retornar una cola vacia.
+	No se puede usar otro TAD ni otras estructuras auxiliares para resolver el ejercicio.     
+	La ColaPrioridadInt c no debera ser modificada.
+	La ColaPrioridadInt retornada debera tener el tamaño igual a la cantidad de elementos que contiene.
+
+	Considere el siguiente ejemplo donde E es el elemento encolado y P su prioridad. 
+	(Los primeros que se muestran son los primeros en decolar)
+	c = {E:4|P:7} {E:-1|P:7} {E:13|P:6} {E:-24|P:2} {E:44|P:2} 
+	retorno = {E:-24|P:2} {E:44|P:2} 
+
+	ColaPrioridadInt MenorPrioridad(ColaPrioridadInt c);
+
+
+
